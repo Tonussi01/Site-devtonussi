@@ -1,47 +1,29 @@
 
-import React, {useState, useCallback, useEffect} from 'react';
-import {Container, Form, Header, Footer } from './styles';
-import logoLt from '../../Images/Logo.png';
-import iconeGit from '../../Images/github.png';
-import iconeInst from '../../Images/instagram.png';
-import iconeLink from '../../Images/linkedin.png';
+import React from 'react';
+import {MidBody,MainTitle,MainContent} from './styles';
 
 
-export default function Contato(){
+export default function Projetos(){
    return(
-    <Container>
-
-        <Header>
-            <div><img src={logoLt}/></div>            
-            <ul>
-                <li><a href='/'> Home </a></li>
-                <li><a href='/cursos'> Cursos </a></li>
-                <li><a href='/projetos'> Projetos </a></li>
-                <li><a href='/contato'> Contato </a></li>
-            </ul>
-        </Header>
-
-        <br />
-        <br />
-
-        <Form>
-            <h1>Aba de Projetos </h1>
-        </Form>   
-        
-        <br />
-        <br />
-
-        <Footer>
-            <h1>Me encontre nas redes sociais.</h1>
-            <ul>
-                <li> <img src= {iconeInst} /> <a href='https://www.instagram.com/tonussi01/'> Instagran </a></li>
-                <li> <img src= {iconeLink} /> <a href='https://www.linkedin.com/in/lucas-tonussi-a7501b220/'> Linkedin </a></li>
-                <li> <img src= {iconeGit} /> <a href='https://github.com/Tonussi01'> GitHub </a></li>
-            </ul>
-            <p>© 2023 Lucas Tonussi M. Fortuna Engenheiro de Software. Todos direitos reservados.</p>
-        </Footer>
-            
-    </Container>
+    <MidBody>
+            <MainTitle>Projetos Desenvolvidos</MainTitle>
+            <br />
+            <MainContent>
+            Scripts-Gary-s-Adventure 
+            <br/>
+            Scripts utilizados em um projeto pessoal de jogo 2d para estudo da plataforma unity e aplicação da linguagem c# para jogos Mobile
+            <br/>
+            https://github.com/Tonussi01/Scripts-Gary-s-Adventure
+            <br/>
+            <br/>
+            <br/>
+            Sistema_Gestao
+            <br/>
+            Sistema de gestão de vendas e controle de estoque.
+            <br/>
+            https://github.com/Tonussi01/Sistema_Gestao
+            </MainContent>
+        </MidBody>
     )
 
 }
