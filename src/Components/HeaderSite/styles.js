@@ -23,7 +23,7 @@ export const Header = styled.div`
 
   li {
     color: #FFF;
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px;
   }
 

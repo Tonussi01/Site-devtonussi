@@ -9,7 +9,7 @@ export const Footer = styled.div`
     bottom: 0; /* Alinha o footer na parte inferior */
 
     h1 {
-        font-size: 20px;
+        font-size: 15px;
         color: #fff;
         text-align: center;
     }
@@ -23,7 +23,7 @@ export const Footer = styled.div`
     }
 
     li {
-        font-size: 15px;
+        font-size: 12px;
         padding: 5px;
         display: flex;
         align-items: center; /* Alinha os itens verticalmente */
@@ -40,7 +40,7 @@ export const Footer = styled.div`
     }
 
     p {
-        font-size: 12px;
+        font-size: 8px;
         color: #800000;
         text-align: center;
     }
