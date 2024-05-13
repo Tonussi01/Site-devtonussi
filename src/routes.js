@@ -5,6 +5,7 @@ import Main from './pages/Main';
 import Cursos from './pages/Cursos';
 import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
+import Apis from "./pages/Apis"
 
 export default function Routes(){
   return(
@@ -14,6 +15,7 @@ export default function Routes(){
         <Route exact path="/cursos" component={Cursos} />
         <Route exact path="/projetos" component={Projetos} />
         <Route exact path="/contato" component={Contato} />
+        <Route exact path="/apis" component={Apis} />
       </Switch>
     </BrowserRouter>
   );

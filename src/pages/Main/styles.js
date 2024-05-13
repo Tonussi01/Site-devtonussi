@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const MidBody = styled.div`
     display: flex;
+    height: 96%;
     flex-direction: column; /* Empilha os elementos verticalmente */
     justify-content: center;
     align-items: center;
@@ -11,7 +12,6 @@ export const MidBody = styled.div`
     padding: 20px;
     border: 2px solid #ccc;
     border-radius: 10px;
-    margin-bottom: 250px;
 `;
 
 

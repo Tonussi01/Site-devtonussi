@@ -1,12 +1,9 @@
 import styled from 'styled-components';
 
 export const Footer = styled.div`
-    width: 100%; /* Ocupa 100% da largura da tela */
+    width: max; /* Ocupa 100% da largura da tela */
     background: #000;
-    padding: 5px; 
-    position: fixed; /* Fixa o footer na parte inferior */
-    left: 0; /* Alinha o footer à esquerda */
-    bottom: 0; /* Alinha o footer na parte inferior */
+    padding: 3px; 
 
     h1 {
         font-size: 15px;
@@ -23,7 +20,7 @@ export const Footer = styled.div`
     }
 
     li {
-        font-size: 12px;
+        font-size: 15px;
         padding: 5px;
         display: flex;
         align-items: center; /* Alinha os itens verticalmente */
@@ -40,7 +37,7 @@ export const Footer = styled.div`
     }
 
     p {
-        font-size: 8px;
+        font-size: 10px;
         color: #800000;
         text-align: center;
     }

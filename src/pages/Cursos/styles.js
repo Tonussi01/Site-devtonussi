@@ -11,7 +11,6 @@ export const MidBody = styled.div`
     padding: 20px;
     border: 2px solid #ccc;
     border-radius: 10px;
-    margin-bottom: 250px;
 `;
 
 

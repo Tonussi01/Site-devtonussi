@@ -2,20 +2,22 @@ import styled from 'styled-components';
 
 export const Header = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  background-color: #333;
-  padding: 10px;
+  background-color: black;
+  padding: 5px;
   width:max;
-  margin-bottom: 20px;
 
   img {
-    width: 50px;
+    width: 100%;
+    max-width: 100px;
+    min-width: 40px;
   }
 
   ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;    
+    align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -34,7 +36,7 @@ export const Header = styled.div`
   }
 
   a:hover {
-    background-color: #696969;
+    background-color: #bef264;
     color: black;
   }
 `;
