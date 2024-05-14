@@ -6,7 +6,8 @@ export const MidBody = styled.div`
     justify-content: center;
     align-items: center;
     background: #F5DEB3;
-    max-width: 800px;
+    max-width: 1200px;
+    width: 85%;
     margin: 10px auto;
     padding: 20px;
     border: 2px solid #ccc;
@@ -15,7 +16,7 @@ export const MidBody = styled.div`
 
 
 export const MainTitle = styled.h1`
-    font-size: 24px; /* Tamanho da fonte */
+    font-size: 32px; /* Tamanho da fonte */
     color: #333; /* Cor do texto */
     text-align: center; /* Alinhamento do texto */
 `;
