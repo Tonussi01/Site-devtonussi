@@ -63,12 +63,9 @@ export default function Cursos() {
             title="Formação Python e orientação a objetos"
             content="100 horas"
             school="Alura"
+            tecnology =""
             conclusion="novembro de 2021."
-            description="Neste curso de programação de sistemas, você será guiado por uma jornada desafiadora
-                       e emocionante através do mundo do código. Os instrutores apaixonados tornam cada conceito 
-                       acessível, enquanto os projetos práticos garantem que você aplique o que aprendeu. Ao final,
-                       você não apenas terá habilidades técnicas sólidas, mas também uma comunidade de colegas 
-                       entusiasmados para compartilhar sua jornada."
+            description="A Formação Python e Orientação a Objetos oferece uma imersão prática na linguagem de programação Python, focando na sua versão 3 e na aplicação eficaz dos princípios de orientação a objetos. Com ênfase em boas práticas de programação, o curso aborda desde a manipulação de coleções e tratamento de erros até a leitura e escrita de diferentes formatos de arquivos. Por meio de projetos práticos, os participantes desenvolvem uma sólida compreensão da linguagem, preparando-se para explorar ainda mais a programação Python em projetos web utilizando frameworks como Django e Flask."
                        image={Certificado} /> 
                        
         <br />
@@ -77,11 +74,7 @@ export default function Cursos() {
           content="90 horas"
           school="Alura"
           conclusion="novembro de 2021."
-          description="Neste curso de programação de sistemas, você será guiado por uma jornada desafiadora
-                       e emocionante através do mundo do código. Os instrutores apaixonados tornam cada conceito 
-                       acessível, enquanto os projetos práticos garantem que você aplique o que aprendeu. Ao final,
-                       você não apenas terá habilidades técnicas sólidas, mas também uma comunidade de colegas 
-                       entusiasmados para compartilhar sua jornada."
+          description="A Formação Jogos com Unity da Alura oferece uma imersão completa na criação de jogos para diversas plataformas, incluindo PC, web e mobile, abrangendo tanto jogos em 2D quanto em 3D. Os participantes aprenderão a aplicar conceitos de física, áudio e animações em seus projetos, além de aprimorar suas habilidades em programação com foco em boas práticas e padrões de projetos específicos para o desenvolvimento de jogos. Com uma abordagem prática e multidisciplinar, esta formação proporciona aos alunos os conhecimentos necessários para se destacarem no dinâmico mercado de desenvolvimento de games."
                        image={Certificado2} /> 
                               
         <br />
@@ -90,11 +83,7 @@ export default function Cursos() {
           content="35 horas"
           school="Alura"
           conclusion="novembro de 2021."
-          description="Neste curso de programação de sistemas, você será guiado por uma jornada desafiadora
-                       e emocionante através do mundo do código. Os instrutores apaixonados tornam cada conceito 
-                       acessível, enquanto os projetos práticos garantem que você aplique o que aprendeu. Ao final,
-                       você não apenas terá habilidades técnicas sólidas, mas também uma comunidade de colegas 
-                       entusiasmados para compartilhar sua jornada."
+          description="NAtravés de uma abordagem abrangente, você aprenderá a estruturar uma página web com HTML, compreender a interação entre HTML e CSS, organizar o conteúdo de forma eficaz, utilizar ferramentas de desenvolvimento de layouts como Figma e publicar seu projeto utilizando plataformas como GitHub. Além disso, você dominará técnicas avançadas como a utilização de CSS Flexbox para organizar elementos na página e tornar seu site responsivo para diversos dispositivos. Transforme sua paixão por design em habilidades práticas e crie páginas web completas e profissionais!"
           image={Certificado48} /> 
         <br />
         <CardCursos
@@ -102,11 +91,7 @@ export default function Cursos() {
           content="58 horas"
           school="Alura"
           conclusion="novembro de 2021."
-          description="Neste curso de programação de sistemas, você será guiado por uma jornada desafiadora
-                       e emocionante através do mundo do código. Os instrutores apaixonados tornam cada conceito 
-                       acessível, enquanto os projetos práticos garantem que você aplique o que aprendeu. Ao final,
-                       você não apenas terá habilidades técnicas sólidas, mas também uma comunidade de colegas 
-                       entusiasmados para compartilhar sua jornada."
+          description="A Formação Excel da Alura é um curso completo que abrange desde os conceitos básicos até as técnicas avançadas desta poderosa ferramenta. Ao longo do curso, você vai aprender a utilizar todas as funcionalidades do Excel, incluindo a criação de tabelas dinâmicas, aplicação de filtros e elaboração de dashboards personalizados. Com uma abordagem prática e direcionada ao contexto de negócios, você estará preparado para aplicar seus conhecimentos em diversas demandas, desde a análise e estruturação de dados até a tomada de decisões estratégicas."
           image={Certificado49} /> 
                     
           <br />

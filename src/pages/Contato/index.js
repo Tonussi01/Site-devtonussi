@@ -14,11 +14,11 @@ export default function Contato(){
                 <br />
                 CEP: 78077 - 213            
                 <br />
-                Endereço Alternativo:
+                Endereços fixos:
                 <br />
                  Barbacena - MG           
                 <br />
-                Ou
+                e
                 <br />
                  Belo Horizonte           
                 <br />
