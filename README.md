@@ -1,4 +1,4 @@
-____Projeto Online em [/devtonussi-tonussi01s-projects.vercel.app](https://devtonussi-tonussi01s-projects.vercel.app/cursos) ____
+____Projeto Online em [/devtonussi-tonussi01s-projects.vercel.app](https://devtonussi-tonussi01s-projects.vercel.app) ____
 
 
 # Getting Started with Create React App
