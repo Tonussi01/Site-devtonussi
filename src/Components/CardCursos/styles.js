@@ -1,4 +1,3 @@
-// styles.js
 import styled from 'styled-components';
 
 export const CardContainer = styled.div`
@@ -7,7 +6,7 @@ export const CardContainer = styled.div`
   background-color: #fffbeb; /* Cor de fundo de destaque */
   border: 2px solid #000; /* Bordas pretas */
   border-radius: 8px;
-  padding: 20px;
+  padding: 40px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
   &:hover {
@@ -18,13 +17,15 @@ export const CardContainer = styled.div`
 export const Title = styled.h2`
   color: #333;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-weight: bold;
+  text-align: center; /* Centraliza o título */
 `;
 
 export const Content = styled.p`
   color: #666;
   font-size: 16px;
+  text-align: left; /* Alinha os conteúdos à esquerda */
 `;
 
 export const ImageWrapper = styled.div`
@@ -38,6 +39,15 @@ export const Image = styled.img`
   width: 100%; /* A imagem ocupará 100% da largura do wrapper */
   height: auto; /* A altura da imagem se ajustará automaticamente */
   border-radius: 8px; /* Adicionando borda arredondada */
+`;
+
+export const DivWrapper = styled.div`
+  display: flex;
+  align-items: center; /* Centraliza os elementos verticalmente */
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse; /* Altera a direção da pilha e inverte a ordem */
+  }
 `;
 
 // Adicionando media query para telas menores
