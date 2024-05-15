@@ -35,7 +35,12 @@ export default function Main(){
             Espanhol – Intermediario
             <br />
             Excel – Avançado
+            
             </MainContent>
+            <br />
+            <a href="https://drive.google.com/file/d/1zdHSgpWHO5u0mPXdHVLll9OaI0iQsA61/view?usp=sharing" target="_blank" rel="noreferrer" style={{ color: 'green', 
+                backgroundColor: "white", fontSize: '40px', padding:'10px' }} >Currículo em PDF</a>
+
 
 
         </MidBody>
