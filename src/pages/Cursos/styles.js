@@ -5,7 +5,7 @@ export const MidBody = styled.div`
     flex-direction: column; /* Empilha os elementos verticalmente */
     justify-content: center;
     align-items: center;
-    background: #020617;
+    background: black;
     max-width: 1200px;
     width: 85%;
     margin: 10px auto;
@@ -16,7 +16,7 @@ export const MidBody = styled.div`
 
 
 export const MainTitle = styled.h1`
-    font-size: 32px; /* Tamanho da fonte */
+    font-size: 30px; /* Tamanho da fonte */
     color: #f8fafc; /* Cor do texto */
     text-align: center; /* Alinhamento do texto */
 `;

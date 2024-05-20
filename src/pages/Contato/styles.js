@@ -15,7 +15,7 @@ export const MidBody = styled.div`
 
 
 export const MainTitle = styled.h1`
-    font-size: 24px; /* Tamanho da fonte */
+    font-size: 30px; /* Tamanho da fonte */
     color:white ; /* Cor do texto */
     text-align: center; /* Alinhamento do texto */
 `;
