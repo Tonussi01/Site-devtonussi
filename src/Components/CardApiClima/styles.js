@@ -1,23 +1,21 @@
-// styles.js
 import styled from 'styled-components';
 
 export const CardContainer = styled.div`
   display: flex;
-  
-  min-width: 600px;
-  flex-direction: column; /* Alterado para uma disposição em coluna em telas menores */
-  background-color: #12291A; /* Cor de fundo de destaque */
-  border: 2px solid  #00DB0E; /* Bordas pretas */
+  flex-direction: column; 
+  background-color: #12291A;
+  border: 2px solid #00DB0E;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
+
 export const CardContainerSecundario = styled.div`
   background-color: #f9fafb;
   border-radius: 8px;
   color: black;
   padding: 20px;
-  margin-top: 20px; /* Espaço superior entre os cards */
+  margin-top: 20px;
 
   h2 {
     font-size: 20px;
@@ -25,36 +23,43 @@ export const CardContainerSecundario = styled.div`
     margin-bottom: 10px;
   }
 
-  /* Alinhar itens em linha */
+  /* Alinhar itens em linha para telas maiores */
   display: flex;
   flex-direction: column;
 
   /* Estilo para os parágrafos */
   div {
     display: flex;
-    flex-direction: row;
-    padding: 10px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
 
   p {
-    display: flex;
     font-size: 16px;
     line-height: 1.5;
-    padding: 10px;
-    
+    margin: 5px 0;
+    width: calc(50% - 10px);
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 `;
 
 export const Title = styled.h2`
-  color:white;
+  color: white;
   font-size: 24px;
   margin-bottom: 10px;
   font-weight: bold;
 `;
 
 export const Content = styled.p`
-  color:white;
+  color: white;
   font-size: 16px;
 `;
 
@@ -77,17 +82,13 @@ export const Button = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: #00B30B; /* Alteração de cor ao passar o mouse */
+    background-color: #00B30B;
   }
 `;
 
-
-
-// Adicionando media query para telas menores
 export const ResponsiveContainer = styled(CardContainer)`
   @media (max-width: 768px) {
-    flex-direction: row; /* Alterado para uma disposição em linha em telas menores */
-    align-items: center; /* Alinhamento centralizado em telas menores */
+    flex-direction: column;
+    align-items: center;
   }
 `;
-

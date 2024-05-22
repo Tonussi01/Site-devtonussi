@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import { CardContainer, CardContainerSecundario, Title, Content, Input, Button } from './styles';
 import { CepController } from '../../Controller/CepController';
-import { ClimaController } from '../../Controller/ClimaController';
 
-const CardApis = ({ title, description }) => {
+const CardApiCep = ({ title, description }) => {
   const [cep, setCep] = useState('');
   const [cepDetails, setCepDetails] = useState(null);
-  const [climaDetails, setClimaDetails] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const handleCepChange = (event) => {
@@ -22,20 +20,7 @@ const CardApis = ({ title, description }) => {
       const newCepDetails = CepController.getLastSearchedCep();
       console.log("Detalhes do CEP encontrado:", newCepDetails);
       setCepDetails(newCepDetails);
-
-      if (newCepDetails) {
-        const climaData = {
-          name: newCepDetails.localidade,
-          state: newCepDetails.uf,
-        };
-        console.log("Dados para climaData:", climaData);
-
-        await ClimaController.fetchClima(climaData);
-        const climaDetails = ClimaController.getLastSearchedClima();
-        setClimaDetails(climaDetails);
-        
-        console.log("Detalhes do clima encontrado:", climaDetails);
-      }
+      
     } catch (error) {
       console.error("Error fetching data:", error);
     } finally {
@@ -66,19 +51,10 @@ const CardApis = ({ title, description }) => {
               <p>{cepDetails.localidade} - {cepDetails.uf}</p>
             </div>
           </CardContainerSecundario>
-        )}
-        {climaDetails && (
-          <CardContainerSecundario>
-            <h2>Dados Climáticos</h2>
-            <div>
-              <p>ID do Clima: {climaDetails.id}</p>
-              {/* Renderize outros detalhes do clima conforme necessário */}
-            </div>
-          </CardContainerSecundario>
-        )}
+        )}        
       </div>
     </CardContainer>
   );
 };
 
-export default CardApis;
+export default CardApiCep;

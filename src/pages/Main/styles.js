@@ -2,33 +2,42 @@ import styled from 'styled-components';
 
 export const MidBody = styled.div`
     display: flex;
-    height: 96%;
-    flex-direction: column; /* Empilha os elementos verticalmente */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    background: black;
-    max-width: 800px;
+    background: #020617;
+    max-width: 1200px;
+    width: 85%;
     margin: 10px auto;
     padding: 40px;
     border: 2px solid #a3e635;
     border-radius: 10px;
+
+
+  
+    > * {
+        flex: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
-
 export const MainTitle = styled.h1`
-    font-size: 30px; /* Tamanho da fonte */
-    color: white; /* Cor do texto */
-    text-align: center; /* Alinhamento do texto */
+    font-size: 30px;
+    color: white;
+    text-align: center;
 `;
 
 export const MainContent = styled.div`
-    flex: 1; /* Ocupa todo o espaço restante */
-    font-size: 16px; /* Tamanho da fonte */
-    color:white; /* Cor do texto */
-    line-height: 1.6; /* Espaçamento entre linhas */
-    text-align: center; /* Alinha o texto ao centro horizontalmente */
-    align-self: center; /* Alinha o conteúdo ao centro verticalmente */
+    font-size: 16px;
+    color: white;    
+    background:  #12291A;
+    line-height: 1.6;
+    text-align: left;
     padding: 20px;
-    border-radius: 8px; 
+    border-radius: 8px;
     border: 1px solid #00DB0E;
+    margin-bottom: 20px;
+    
 `;

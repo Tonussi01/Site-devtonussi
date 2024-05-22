@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 export const MidBody = styled.div`
     display: flex;
-    flex-direction: column; /* Empilha os elementos verticalmente */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    background: black;
-    max-width: 800px;
+    background: #020617;
+    max-width: 1200px;
+    width: 85%;
     margin: 10px auto;
     padding: 40px;
     border: 2px solid #a3e635;
@@ -15,16 +16,16 @@ export const MidBody = styled.div`
 
 
 export const MainTitle = styled.h1`
-    font-size: 30px; /* Tamanho da fonte */
-    color:white ; /* Cor do texto */
-    text-align: center; /* Alinhamento do texto */
+    font-size: 30px; 
+    color: #f8fafc; 
+    text-align: center; 
 `;
 
 export const MainContent = styled.div`
-    flex: 1; /* Ocupa todo o espaço restante */
-    font-size: 16px; /* Tamanho da fonte */
-    color: white; /* Cor do texto */
-    line-height: 1.6; /* Espaçamento entre linhas */
-    text-align: center; /* Alinha o texto ao centro horizontalmente */
-    align-self: center; /* Alinha o conteúdo ao centro verticalmente */
+    flex: 1; 
+    font-size: 16px; 
+    color: #f8fafc;
+    line-height: 1.6;
+    text-align: center;
+    align-self: center;
 `;

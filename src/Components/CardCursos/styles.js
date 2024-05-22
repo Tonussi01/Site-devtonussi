@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CardContainer = styled.div`
-    display: flex;
+  display: flex;
   flex-direction: column; /* Alterado para uma disposição em coluna em telas menores */
   background-color: #12291A; /* Cor de fundo de destaque */
   border: 2px solid  #00DB0E; /* Bordas pretas */

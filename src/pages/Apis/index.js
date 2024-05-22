@@ -1,6 +1,7 @@
 import React from 'react';
 import { MidBody, MainTitle, MainContent } from './styles';
-import CardApis from './../../Components/CardApis/index.js';
+import CardApiCep from '../../Components/CardApiCep/index.js';
+import CardApiClima from '../../Components/CardApiClima/index.js';
 
 export default function Apis() {
   return (
@@ -8,12 +9,15 @@ export default function Apis() {
       <MainTitle>Api's</MainTitle>
       <br />
       <MainContent>
-        <CardApis
-          title="API Meu CEP + API Advisor "
-          description="Digite o Cep desejado e será retornado a você o endereço ligado ao cep e tambem algumas informações climaticas"
-          
+        <CardApiCep
+          title="API Via CEP"
+          description="Digite o Cep desejado e será retornado a você o endereço ligado ao cep "          
         />
         <br />
+        <CardApiClima
+          title="API de Dados climáticos - API Advisor"
+          description="Dados Meteorológicos Para a cidade definida" 
+        />
           
       </MainContent>
     </MidBody>

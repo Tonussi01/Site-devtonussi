@@ -41,18 +41,18 @@ export const Header = styled.div`
 
   @media screen and (max-width: 768px) {
     /* Estilos para telas menores que 768px de largura */
-    flex-direction: column; /* Altera a direção do flex para coluna */
-    padding: 5px; /* Ajusta o padding */
-    align-items: flex-start; /* Alinha os itens à esquerda */
+    flex-direction: column; 
+    padding: 5px; 
+    align-items: flex-start; 
     
     ul {
-      flex-direction: row; /* Retorna a direção da lista para linha */
-      flex-wrap: wrap; /* Permite que os itens da lista quebrem para a próxima linha */
-      justify-content: center; /* Centraliza os itens horizontalmente */
+      flex-direction: row; 
+      flex-wrap: wrap; 
+      justify-content: center; 
     }
 
     li {
-      padding: 10px; /* Aumenta o espaço entre os itens da lista */
+      padding: 10px; 
     }
   }
 `;

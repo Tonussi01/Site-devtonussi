@@ -3,17 +3,16 @@ import ClimaModel from "../Model/ClimaModel";
 export class ClimaController {
   static lastSearchedClima = null;
 
-  static async fetchClima(climaData) {
+  static async fetchClima() {
     try {
-        const url = `http://apiadvisor.climatempo.com.br/api/v1/locale/city?name=${encodeURIComponent(climaData.name)}&state=${encodeURIComponent(climaData.state)}&token=e433b34fa2075ac0a01441b4e30071a4`;
-        console.log('URL da requisição:', url);
+        const url = `http://apiadvisor.climatempo.com.br/api/v1/weather/locale/3477/current?token=256c208e151f17cde47941db090645c0`;
     
         const response = await fetch(url);
         const data = await response.json();
-        console.log('Resposta API:', data);
 
       if (!data.erro) {
-        const climaModel = new ClimaModel(data[0].id, data[0].name, data[0].state, data[0].country);
+        const climaModel = new ClimaModel(data.id, data.name, data.state, data.country);
+        climaModel.setData(data.data);
         this.lastSearchedClima = climaModel;
       } else {
         console.log('Local não encontrado no banco climático');
@@ -29,3 +28,4 @@ export class ClimaController {
     return this.lastSearchedClima;
   }
 }
+export default ClimaController;
