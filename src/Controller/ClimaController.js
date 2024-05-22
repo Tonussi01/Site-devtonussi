@@ -5,7 +5,7 @@ export class ClimaController {
 
   static async fetchClima() {
     try {
-        const url = `http://apiadvisor.climatempo.com.br/api/v1/weather/locale/3477/current?token=256c208e151f17cde47941db090645c0`;
+        const url = `https://apiadvisor.climatempo.com.br/api/v1/weather/locale/3477/current?token=256c208e151f17cde47941db090645c0`;
     
         const response = await fetch(url);
         const data = await response.json();
