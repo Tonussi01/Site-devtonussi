@@ -28,6 +28,11 @@ const CardApiCep = ({ title, description }) => {
     }
   };
 
+  const handleClear = () => {
+    setCep('');
+    setCepDetails(null);
+  };
+
   return (
     <CardContainer>
       <div>
@@ -44,12 +49,17 @@ const CardApiCep = ({ title, description }) => {
         {loading && <p>Carregando...</p>}
         {cepDetails && (
           <CardContainerSecundario>
-            <h2>Endereço Encontrado</h2>
-            <div>
-              <p>{cepDetails.logradouro}</p>
-              <p>{cepDetails.bairro}</p>
-              <p>{cepDetails.localidade} - {cepDetails.uf}</p>
-            </div>
+            <p><strong>CEP:</strong> {cepDetails.cep}</p>
+            <p><strong>Logradouro:</strong> {cepDetails.logradouro}</p>
+            <p><strong>Complemento:</strong> {cepDetails.complemento}</p>
+            <p><strong>Bairro:</strong> {cepDetails.bairro}</p>
+            <p><strong>Localidade:</strong> {cepDetails.localidade}</p>
+            <p><strong>UF:</strong> {cepDetails.uf}</p>
+            <p><strong>IBGE:</strong> {cepDetails.ibge}</p>
+            <p><strong>DDD:</strong> {cepDetails.ddd}</p>
+            <p><strong>SIAFI:</strong> {cepDetails.siafi}</p>
+            <Button onClick={handleClear} style={{ backgroundColor: 'gray' }}>Limpar</Button>
+
           </CardContainerSecundario>
         )}        
       </div>

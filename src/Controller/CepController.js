@@ -5,11 +5,22 @@ export class CepController {
 
   static async fetchCep(cep) {
     try {
-        const response = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
+      const response = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
       const data = await response.json();
 
       if (!data.erro) {
-        const cepModel = new CepModel( data.cep,data.logradouro, data.bairro, data.localidade, data.uf);
+        const cepModel = new CepModel(
+          data.cep,
+          data.logradouro,
+          data.complemento,
+          data.bairro,
+          data.localidade,
+          data.uf,
+          data.ibge,
+          data.gia,
+          data.ddd,
+          data.siafi
+        );
         this.lastSearchedCep = cepModel;
       } else {
         console.log('CEP não encontrado');

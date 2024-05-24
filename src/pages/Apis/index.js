@@ -16,7 +16,7 @@ export default function Apis() {
         <br />
         <CardApiClima
           title="API de Dados climáticos - API Advisor"
-          description="Dados Meteorológicos Para a cidade definida" 
+          description="Demonstração de requisição de dados da ApiAdvisor e apresentação dos dados relativos á cidade de Cuiabá-MT" 
         />
           
       </MainContent>
