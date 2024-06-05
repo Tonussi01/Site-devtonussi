@@ -6,6 +6,7 @@ import Cursos from './pages/Cursos';
 import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
 import Apis from "./pages/Apis"
+import PagTestes from "./pages/PagTestes"
 
 export default function Routes(){
   return(
@@ -16,6 +17,7 @@ export default function Routes(){
         <Route exact path="/projetos" component={Projetos} />
         <Route exact path="/contato" component={Contato} />
         <Route exact path="/apis" component={Apis} />
+        <Route exact path="/testes" component={PagTestes} />
       </Switch>
     </BrowserRouter>
   );

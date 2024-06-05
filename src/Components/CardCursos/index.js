@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CardContainer, Title, Content, ImageWrapper, Image, DivWrapper, FullScreenButton } from './styles';
 
-const CardCursos = ({ title, content, school, conclusion, description, image, tecnology }) => {
+const CardCursos = ({ title, content, school, conclusion, description, image, tecnology, onClose }) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
 
   const handleToggleFullScreen = () => {
@@ -16,8 +16,8 @@ const CardCursos = ({ title, content, school, conclusion, description, image, te
           <Content>Descrição: {description}</Content>
           <Content>Carga Horária: {content}</Content>
           <Content>Instituição de Ensino: {school}</Content>
-          <Content>Data de conclusão: {conclusion}</Content>          
-          <Content>Tecnologia: {tecnology}</Content>          
+          <Content>Data de conclusão: {conclusion}</Content>
+          <Content>Tecnologia: {tecnology}</Content>
           {!isFullScreen && (
             <FullScreenButton onClick={handleToggleFullScreen}>Ver Certificado</FullScreenButton>
           )}

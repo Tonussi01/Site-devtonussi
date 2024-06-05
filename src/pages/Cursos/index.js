@@ -1,7 +1,6 @@
 import React from 'react';
 import { MidBody, MainTitle, MainContent } from './styles';
 import CardCursos from './../../Components/CardCursos/index.js';
-import Certificado from './../../Images/Certificados/Certificado 1.png';
 import Certificado2 from './../../Images/Certificados/Certificado 2.png';
 import Certificado3 from './../../Images/Certificados/Certificado 3.png';
 import Certificado4 from './../../Images/Certificados/Certificado 4.png';
@@ -66,7 +65,7 @@ export default function Cursos() {
             tecnology =""
             conclusion="novembro de 2021."
             description="A Formação Python e Orientação a Objetos oferece uma imersão prática na linguagem de programação Python, focando na sua versão 3 e na aplicação eficaz dos princípios de orientação a objetos. Com ênfase em boas práticas de programação, o curso aborda desde a manipulação de coleções e tratamento de erros até a leitura e escrita de diferentes formatos de arquivos. Por meio de projetos práticos, os participantes desenvolvem uma sólida compreensão da linguagem, preparando-se para explorar ainda mais a programação Python em projetos web utilizando frameworks como Django e Flask."
-                       image={Certificado} /> 
+                       image="https://raw.githubusercontent.com/Tonussi01/Site-devtonussi/master/src/Images/Certificados/Certificado%201.png" /> 
                        
         <br />
         <CardCursos
