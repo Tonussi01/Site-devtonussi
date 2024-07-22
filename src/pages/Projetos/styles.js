@@ -28,3 +28,10 @@ export const MainContent = styled.div`
     text-align: center; 
     align-self: center; 
 `;
+export const Pre = styled.pre`
+    white-space: pre-wrap; 
+    word-break: break-word; 
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+`;
