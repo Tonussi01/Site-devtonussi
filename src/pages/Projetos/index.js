@@ -27,6 +27,10 @@ const TnsOldImages = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld6.jpg?raw=true'
 ];
 
+const Git = [
+    'https://miro.medium.com/v2/resize:fit:1100/1*CWFkh5z8oa6dZfn5_gkKKQ.jpeg'    
+];
+
 export default function Projetos() {
     return (
         <MidBody>
@@ -78,6 +82,16 @@ Sistema ERP para gerenciamento de estoque e controle de vendas.
                     description="Sistema para realizar controle de vendas e gerenciamento de estoque. Sistema windows form, consome um banco de dados Sql."
                     link="https://github.com/Tonussi01/Sistema_Gestao"
                     images={TnsOldImages}
+                />
+                <br />
+            </MainContent>
+
+            <MainContent>
+                <CardProjetos
+                    title="Demais projetos"
+                    description="Todos meus projetos são mantidos publicos no meu perfil do GitHub"
+                    link="https://github.com/Tonussi01"
+                    images={Git}
                 />
                 <br />
             </MainContent>
