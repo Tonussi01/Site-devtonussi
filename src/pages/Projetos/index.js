@@ -15,7 +15,7 @@ const TnsImages = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool5.jpg?raw=true'
 ];
 const TnsImagesBE = [
-    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool6.jpg?raw=true'
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool6.png?raw=true'
 ];
 
 const TnsOldImages = [
