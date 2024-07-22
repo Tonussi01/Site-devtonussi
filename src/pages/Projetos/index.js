@@ -14,6 +14,10 @@ const TnsImages = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool4.jpg?raw=true',
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool5.jpg?raw=true'
 ];
+const TnsImagesBE = [
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool6.jpg?raw=true'
+];
+
 const TnsOldImages = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld1.jpg?raw=true',
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld2.jpg?raw=true',
@@ -64,7 +68,7 @@ Sistema ERP para gerenciamento de estoque e controle de vendas.
 - Consome um banco de dados SQL que era Hospedado através do teste free da GoogleClouds
                     `}
                     Link="https://github.com/Tonussi01/nodetns/tree/main/backendtns"
-                    images={TnsImages}
+                    images={TnsImagesBE}
                 />
                 <br />
             </MainContent>
