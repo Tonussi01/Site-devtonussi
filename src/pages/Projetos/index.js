@@ -12,14 +12,15 @@ const TnsImages = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool2.jpg?raw=true',
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool3.jpg?raw=true',
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool4.jpg?raw=true',
-    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool5.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool5.jpg?raw=true'
 ];
 const TnsOldImages = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld1.jpg?raw=true',
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld2.jpg?raw=true',
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld3.jpg?raw=true',
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld4.jpg?raw=true',
-    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld5.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld5.jpg?raw=true',    
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld6.jpg?raw=true'
 ];
 
 export default function Projetos() {
