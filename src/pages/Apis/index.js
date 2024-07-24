@@ -2,6 +2,7 @@ import React from 'react';
 import { MidBody, MainTitle, MainContent } from './styles';
 import CardApiCep from '../../Components/CardApiCep/index.js';
 import CardApiClima from '../../Components/CardApiClima/index.js';
+import CardApiQuiz from '../../Components/CardApiQuiz/index.js';
 
 export default function Apis() {
   return (
@@ -18,7 +19,8 @@ export default function Apis() {
           title="API de Dados climáticos - API Advisor"
           description="Demonstração de requisição de dados da ApiAdvisor e apresentação dos dados relativos á cidade de Cuiabá-MT" 
         />
-          
+         <br />
+          <CardApiQuiz />
       </MainContent>
     </MidBody>
   );
