@@ -18,6 +18,11 @@ const TnsImagesBE = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSTool6.jpg?raw=true'
 ];
 
+const TnsImagesQuiz = [
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/DevQuiz1.png?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/DevQuiz2.png?raw=true'
+];
+
 const TnsOldImages = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld1.jpg?raw=true',
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/TNSToolOld2.jpg?raw=true',
@@ -86,6 +91,15 @@ Sistema ERP para gerenciamento de estoque e controle de vendas.
                 <br />
             </MainContent>
 
+            <MainContent>
+                <CardProjetos
+                    title="Api - DevQuiz"
+                    description="Api em padrão MVC. Retorna uma questão aleatoria de um banco de questões organizadas em Json"
+                    link="https://github.com/Tonussi01/ApiDevQuiz_NET6.0"
+                    images={TnsImagesQuiz}
+                />
+                <br />
+            </MainContent>
             <MainContent>
                 <CardProjetos
                     title="Demais projetos"
