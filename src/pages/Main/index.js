@@ -56,7 +56,7 @@ const Main = () => {
                     Excel – Avançado 
                 </p><br />                
             </MainContent>
-            <a href="https://drive.google.com/file/d/1zdHSgpWHO5u0mPXdHVLll9OaI0iQsA61/view?usp=sharing" target="_blank" rel="noreferrer" style={{ color: 'green',textAlign: 'center', backgroundColor: "white", fontSize: '40px', padding: '10px' }}>Currículo em PDF</a>
+            <a href="https://drive.google.com/file/d/1_sTL6OvMycN1i-mGGkb8tTk6mtwYuWxE/view?usp=drive_link" target="_blank" rel="noreferrer" style={{ color: 'green',textAlign: 'center', backgroundColor: "white", fontSize: '40px', padding: '10px' }}>Currículo em PDF</a>
         </MidBody>
     );
 }
