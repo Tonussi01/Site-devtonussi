@@ -36,9 +36,13 @@ const Git = [
     'https://miro.medium.com/v2/resize:fit:1100/1*CWFkh5z8oa6dZfn5_gkKKQ.jpeg'    
 ];
 
-const Discografia = [
+const DiscografiaFe = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/Discografia1.png?raw=true',  
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/Discografia2.png?raw=true'  
+];
+
+const DiscografiaBe = [
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/Discografia3.png?raw=true'
 ];
 
 export default function Projetos() {
@@ -110,7 +114,7 @@ Sistema ERP para gerenciamento de estoque e controle de vendas.
                     title="Discografia Front-end"
                     description="O Front-end Discografia é uma aplicação React desenvolvida para interagir com a API Discografia, oferecendo uma interface para gerenciar e visualizar álbuns e músicas."
                     link="https://github.com/Tonussi01/discografia-fe"
-                    images={Discografia}
+                    images={DiscografiaFe}
                 />
                 <br />
             </MainContent>
@@ -119,7 +123,7 @@ Sistema ERP para gerenciamento de estoque e controle de vendas.
                     title="Discografia Back-end"
                     description="A API Discografia é uma API REST desenvolvida para gerenciar informações sobre álbuns e músicas. A API fornece endpoints para CRUD (Criar, Ler, Atualizar, Deletar) operações em álbuns e músicas."
                     link="https://github.com/Tonussi01/Discografia_BE"
-                    images={Discografia}
+                    images={DiscografiaBe}
                 />
                 <br />
             </MainContent>

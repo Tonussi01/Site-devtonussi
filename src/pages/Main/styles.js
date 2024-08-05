@@ -17,7 +17,7 @@ export const MidBody = styled.div`
   
     > * {
         flex: 1;
-        width: 100%;
+        width: 98%;
         display: flex;
         flex-direction: column;
     }
