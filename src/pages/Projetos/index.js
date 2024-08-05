@@ -37,8 +37,8 @@ const Git = [
 ];
 
 const Discografia = [
-    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/Discografia1.jpg?raw=true',  
-    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/Discografia2.jpg?raw=true'  
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/Discografia1.png?raw=true',  
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/Discografia2.png?raw=true'  
 ];
 
 export default function Projetos() {
