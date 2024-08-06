@@ -45,6 +45,25 @@ const DiscografiaBe = [
     'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/Discografia3.png?raw=true'
 ];
 
+const ApiCaixaEletronico = [
+    'https://png.pngtree.com/png-vector/20220909/ourmid/pngtree-cashier-machine-png-image_6144991.png'
+];
+
+const GarryAdventure = [
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/GarryAdventure1.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/GarryAdventure2.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/GarryAdventure3.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/GarryAdventure4.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/GarryAdventure5.jpg?raw=true'
+];
+const MyFinance = [
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/MyFinance1.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/MyFinance2.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/MyFinance3.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/MyFinance4.jpg?raw=true',
+    'https://github.com/Tonussi01/Site-devtonussi/blob/master/src/Images/Projetos/MyFinance5.jpg?raw=true'
+];
+
 export default function Projetos() {
     return (
         <MidBody>
@@ -127,6 +146,37 @@ Sistema ERP para gerenciamento de estoque e controle de vendas.
                 />
                 <br />
             </MainContent>
+
+            <MainContent>
+                <CardProjetos
+                    title="ApiCaixaEletronico"
+                    description="A ApiCaixaEletronico é uma API RESTful desenvolvida para simular o funcionamento de um caixa eletrônico. O principal objetivo desta API é fornecer a quantidade mínima de cédulas necessárias para atender um valor de saque solicitado pelo usuário."
+                    link="https://github.com/Tonussi01/ApiCaixaEletronico"
+                    images={ApiCaixaEletronico }
+                />
+                <br />
+            </MainContent>
+
+            <MainContent>
+                <CardProjetos
+                    title="Garry's Adventure"
+                    description="Garry's Adventure é um jogo 2d estilo Mario, desenvolvido com Unity e C#. O projeto foi desenvolvido com intuito de expor habilidades com o motor gráfico e suas possibilidades com C#"
+                    link="https://github.com/Tonussi01/Scripts-Gary-s-Adventure"
+                    images={GarryAdventure}
+                />
+                <br />
+            </MainContent>
+
+            <MainContent>
+                <CardProjetos
+                    title="MyFinance-Web-Dotnet"
+                    description="Este sistema permite gerenciar planos de conta e registrar transações associadas a esses planos. Desenvolvido em C# para a matéria de Implementação e Evolução de Software."
+                    link="https://github.com/Tonussi01/MyFinance-Web-Dotnet"
+                    images={MyFinance}
+                />
+                <br />
+            </MainContent>
+
             <MainContent>
                 <CardProjetos
                     title="Demais projetos"
@@ -136,6 +186,8 @@ Sistema ERP para gerenciamento de estoque e controle de vendas.
                 />
                 <br />
             </MainContent>
+
+
         </MidBody>
     );
 }
