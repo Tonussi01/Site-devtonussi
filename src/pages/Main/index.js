@@ -7,8 +7,35 @@ const Main = () => {
             <MainTitle>Sobre Mim</MainTitle><br />
             <MainContent>
                 <p>
-                    Meu nome é Lucas Tonussi Moura Fortuna. Engenheiro Eletricista, pós-graduando em Engenharia de Software pela PUC-Minas. Possuo 6 meses de experiência como programador de sistemas na empresa Zeus Solutions, onde trabalhava com sistemas desenvolvidos em PowerBuilder e C# que utilizavam bancos de dados SQL. Após essa experiência intensifiquei meus estudos na programação de sistemas, realizando cursos em diversas áreas como C#, Python, SQL, HTML, CSS, Scrum, entre outros. Buscando agora, com a pós-graduação, uma maior especialização na área.
+                Sou Lucas Tonussi Moura Fortuna, Engenheiro Eletricista e pós-graduando em Engenharia de Software pela PUC-Minas. Com um foco constante em evolução e aprendizado, venho construindo uma carreira na área de desenvolvimento de software. Minha jornada começou na Zeus Rio Solutions LTDA, onde atuei como Programador de Sistemas de Informação , contribuindo para o desenvolvimento de soluções empresariais robustas e eficientes. Após essa experiência, intensifiquei meus estudos em programação, aprofundando meus conhecimentos em diversas áreas, incluindo C#, Python, SQL, React, e metodologias ágeis como Scrum. Meu objetivo é continuar expandindo meus conhecimentos e habilidades na área de desenvolvimento de sistemas, aplicando o que aprendi ao longo de minha carreira e estudos.
                 </p>
+                <p>
+                Tenho seis anos de dedicação ao estudo e prática do desenvolvimento de software, com uma sólida base em diversas tecnologias. Estou em constante evolução, buscando novas oportunidades para aplicar meu conhecimento em projetos desafiadores e inovadores.
+                </p>
+            </MainContent>            
+
+            <MainContent>
+                
+                <ul>
+                    <li><strong>Habilidades Principais:</strong></li>
+                    <ul>
+                        <li>.NET e C#: Desenvolvimento de aplicações robustas e escaláveis, com ênfase em código limpo e boas práticas de programação.</li>
+                        <li>SQL e MySQL: Design, otimização e administração de bancos de dados relacionais, garantindo acesso eficiente e seguro aos dados.</li>
+                        <li>Padrão MVC: Implementação do padrão Model-View-Controller para uma clara separação de responsabilidades e melhor organização do código-fonte.</li>
+                        <li>APIs REST: Desenvolvimento e integração de APIs para comunicação eficiente entre sistemas e serviços.</li>
+                    </ul>
+                    <li><strong>Outras Competências:</strong></li>
+                    <ul>
+                        <li>Python: Desenvolvimento de projetos variados, incluindo aplicações com machine learning.</li>
+                        <li>PHP e Laravel: Criação e manutenção de backends eficientes utilizando PHP e o framework Laravel.</li>
+                        <li>React.js e React Native: Desenvolvimento de interfaces dinâmicas e responsivas para web e mobile.</li>
+                        <li>Unity, C#: Desenvolvimento de jogos e aplicações de alto desempenho.</li>
+                        <li>Métodos Ágeis (Scrum e Kanban): Conhecimento academico.</li>
+                        <li>Testes de Software: Garantia de qualidade e integridade das funcionalidades.</li>
+                        <li>Análise de Requisitos, UX e UI: Tradução de requisitos em soluções intuitivas e bem projetadas.</li>
+                        <li>HTML + CSS: Desenvolvimento front-end para interfaces atrativas e responsivas.</li>
+                    </ul>
+                </ul>
             </MainContent>
 
             <MainContent>
@@ -18,34 +45,6 @@ const Main = () => {
                     Cargo: Programador de Sistemas de Informação Nível 4<br />
                     Função: Durante meu tempo de trabalho, estive envolvido no desenvolvimento e manutenção de sistemas de gestão empresarial (ERP) no ambiente .NET, utilizando principalmente a linguagem C#. Também tive experiência com a linguagem PowerBuilder, onde utilizei o SQL Server para criar scripts de integração, realizar alterações e consultas, além de desenvolver stored procedures no banco de dados. Meu foco principal era assegurar que os sistemas fossem robustos, eficientes e capazes de atender às necessidades de nossos clientes, propiciando uma boa qualidade de UX.
                 </p>
-            </MainContent>
-
-            <MainContent>
-                <MainTitle>Experiência</MainTitle>
-                <p>
-                    Com seis anos de experiência dedicados ao estudo e prática das diversas áreas do desenvolvimento de software, estou comprometido em construir uma carreira sólida e impactante na Engenharia de Software. Minha jornada tem sido marcada pela exploração e domínio de tecnologias essenciais para o desenvolvimento moderno, com habilidades robustas em .NET, C#, SQL, e implementação de padrões como MVC.
-                </p>
-
-                <ul>
-                    <li><strong>Habilidades Principais:</strong></li>
-                    <ul>
-                        <li>.NET e C#: Minha base sólida em .NET e C# permite desenvolver aplicações robustas e escaláveis, aplicando princípios de orientação a objetos para garantir código limpo e de fácil manutenção.</li>
-                        <li>SQL: Proficiente em design e otimização de bancos de dados relacionais utilizando SQL, assegurando que as aplicações tenham acesso eficiente aos dados.</li>
-                        <li>Padrão MVC: Experiência prática na implementação do padrão Model-View-Controller para separação clara de responsabilidades e melhor organização do código-fonte.</li>
-                        <li>APIs: Conhecimento extenso em desenvolvimento e integração de APIs, facilitando a comunicação entre sistemas e serviços de forma eficiente e segura.</li>
-                    </ul>
-                    <li><strong>Também consigo trabalhar com:</strong></li>
-                    <ul>
-                        <li>Python: Desenvolvimento eficaz em projetos diversos.</li>
-                        <li>React.js e React Native: Construção de interfaces dinâmicas e responsivas.</li>
-                        <li>MySQL: Administração e modelagem de dados para integridade e desempenho.</li>
-                        <li>Unity, C e C++: Desenvolvimento de jogos e aplicações de alto desempenho.</li>
-                        <li>Métodos Ágeis (Scrum e Kanban): Experiência em entregas contínuas e colaborativas.</li>
-                        <li>Testes de Software: Garantia de qualidade e integridade das funcionalidades.</li>
-                        <li>Análise de Requisitos, UX e UI: Tradução de requisitos em soluções intuitivas e bem projetadas.</li>
-                        <li>HTML + CSS: Desenvolvimento front-end para interfaces atrativas e responsivas.</li>
-                    </ul>
-                </ul>
             </MainContent>
 
             <MainContent>
