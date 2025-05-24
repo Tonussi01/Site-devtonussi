@@ -7,7 +7,7 @@ const Main = () => {
             <MainTitle>Sobre Mim</MainTitle><br />
             <MainContent>
                 <p>
-                Sou Lucas Tonussi Moura Fortuna, Engenheiro Eletricista e pós-graduando em Engenharia de Software pela PUC-Minas. Com um foco constante em evolução e aprendizado, venho construindo uma carreira na área de desenvolvimento de software. Minha jornada começou na Zeus Rio Solutions LTDA, onde atuei como Programador de Sistemas de Informação , contribuindo para o desenvolvimento de soluções empresariais robustas e eficientes. Após essa experiência, intensifiquei meus estudos em programação, aprofundando meus conhecimentos em diversas áreas, incluindo C#, Python, SQL, React, e metodologias ágeis como Scrum. Meu objetivo é continuar expandindo meus conhecimentos e habilidades na área de desenvolvimento de sistemas, aplicando o que aprendi ao longo de minha carreira e estudos.
+                Sou Lucas Tonussi Moura Fortuna, Engenheiro Eletricista e pós-graduado em Engenharia de Software pela PUC-Minas. Com um foco constante em evolução e aprendizado, venho construindo uma carreira na área de desenvolvimento de software. Minha jornada começou na Zeus Rio Solutions LTDA, onde atuei como Programador de Sistemas de Informação , contribuindo para o desenvolvimento de soluções empresariais robustas e eficientes. Após essa experiência, intensifiquei meus estudos em programação, aprofundando meus conhecimentos em diversas áreas, incluindo C#, Python, SQL, React, e metodologias ágeis como Scrum. Meu objetivo é continuar expandindo meus conhecimentos e habilidades na área de desenvolvimento de sistemas, aplicando o que aprendi ao longo de minha carreira e estudos.
                 </p>
                 <p>
                 Tenho seis anos de dedicação ao estudo e prática do desenvolvimento de software, com uma sólida base em diversas tecnologias. Estou em constante evolução, buscando novas oportunidades para aplicar meu conhecimento em projetos desafiadores e inovadores.
@@ -40,6 +40,12 @@ const Main = () => {
 
             <MainContent>
                 <MainTitle>Experiência Profissional</MainTitle>
+                <p>
+                    Empresa: UNION Sistemas de Gestão<br />
+                    Cargo: Desenvolvedor de Software Jr <br />
+                    Função: Atuo no desenvolvimento e manutenção do ERP SSSoluções, utilizando tecnologias .NET (C# e VB.NET), SQL Server e DevExpress, realizando correções, melhorias, integrações com APIs e contribuindo com a evolução de módulos como o de Comércio Exterior. Também sou responsável pela manutenção do sistema de Força de Vendas, um app mobile integrado ao ERP, onde realizo ajustes no frontend em Kotlin/Java e colaboro no backend em C#, garantindo a comunicação segura com o banco de dados. Tenho foco em entregar soluções robustas, performáticas e alinhadas às necessidades dos usuários.
+                </p>
+                <br />
                 <p>
                     Empresa: Zeus Rio Solutions LTDA<br />
                     Cargo: Programador de Sistemas de Informação Nível 4<br />
