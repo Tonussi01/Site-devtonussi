@@ -9,15 +9,10 @@ export default function Contato() {
             <MainContent>
                 Endereço atual:
                 <br />
-                Bairro Jardim das Garças, Cuiabá, MT
+                Juiz de Fora - MG
                 <br />
-                CEP: 78077 - 213
-                <br />
-                <br />
-                Endereços fixos:
-                <br />
-                Barbacena - MG  e Belo Horizonte-MG
-                <br />
+                CEP: 36026 - 315
+                <br />                
                 <br />
                 Celular (WhatsApp): (32) 9 8466–7566
                 <br />
