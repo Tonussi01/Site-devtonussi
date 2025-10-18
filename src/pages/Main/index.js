@@ -10,7 +10,7 @@ const Main = () => {
                 Sou Lucas Tonussi Moura Fortuna, Engenheiro Eletricista e pós-graduado em Engenharia de Software pela PUC-Minas. Com um foco constante em evolução e aprendizado, venho construindo uma carreira na área de desenvolvimento de software. Minha jornada começou na Zeus Rio Solutions LTDA, onde atuei como Programador de Sistemas de Informação , contribuindo para o desenvolvimento de soluções empresariais robustas e eficientes. Após essa experiência, intensifiquei meus estudos em programação, aprofundando meus conhecimentos em diversas áreas, incluindo C#, Python, SQL, React, e metodologias ágeis como Scrum. Meu objetivo é continuar expandindo meus conhecimentos e habilidades na área de desenvolvimento de sistemas, aplicando o que aprendi ao longo de minha carreira e estudos.
                 </p>
                 <p>
-                Tenho seis anos de dedicação ao estudo e prática do desenvolvimento de software, com uma sólida base em diversas tecnologias. Estou em constante evolução, buscando novas oportunidades para aplicar meu conhecimento em projetos desafiadores e inovadores.
+                Tenho oito anos de dedicação ao estudo e prática do desenvolvimento de software, com uma sólida base em diversas tecnologias. Estou em constante evolução, buscando novas oportunidades para aplicar meu conhecimento em projetos desafiadores e inovadores.
                 </p>
             </MainContent>            
 
@@ -26,6 +26,8 @@ const Main = () => {
                     </ul>
                     <li><strong>Outras Competências:</strong></li>
                     <ul>
+                        <li>Maui C#: Desenvolvimento de projetos front end, permitindo geração de aplicação para IOS ou Android.</li>
+                        <li>Java/Kotlin: Desenvolvimento de projetos front end interoperação entre as tecnologias.</li>
                         <li>Python: Desenvolvimento de projetos variados, incluindo aplicações com machine learning.</li>
                         <li>PHP e Laravel: Criação e manutenção de backends eficientes utilizando PHP e o framework Laravel.</li>
                         <li>React.js e React Native: Desenvolvimento de interfaces dinâmicas e responsivas para web e mobile.</li>
@@ -40,10 +42,32 @@ const Main = () => {
 
             <MainContent>
                 <MainTitle>Experiência Profissional</MainTitle>
+                 <p>
+                    Empresa: UNION Sistemas de Gestão<br />
+                    Cargo: Desenvolvedor de Software Full Stack Pleno<br />
+                    Período: ago de 2025 - o momento · 3 meses<br />
+                    Local: Juiz de Fora, Minas Gerais, Brasil<br />
+                    <br />
+                    Sou responsável pelo desenvolvimento, manutenção e evolução do ERP SSSoluções e dos demais sistemas integrados ao ecossistema da empresa. <br /><br />
+                    <strong>ERP Desktop:</strong><br />
+                    Sistema desenvolvido em .NET (C# e VB.NET), com interface em DevExpress e banco de dados SQL Server. Atuação em rotinas críticas e de alta complexidade, incluindo integrações bancárias (Bradesco, Sicoob, Itaú, Banco do Brasil), registro e baixa automática de boletos, pagamentos via código de barras e PIX (QR Code), além de módulos fiscais (NFe, CT-e, MDFe, DF-e, SPED Fiscal e SPED Benefícios).<br /><br />
+                    <strong>Aplicativo Força de Vendas (Mobile):</strong><br />
+                    App híbrido (online/offline) utilizado por vendedores, com sincronização quando conectado. Frontend em Java/Kotlin e backend (WCF) em .NET C# hospedado em cloud. Responsável por novas funcionalidades, melhorias, correções e integrações.<br /><br />
+                    <strong>Canhoto Eletrônico:</strong><br />
+                    Aplicativo para confirmação digital de entregas. Frontend em .NET MAUI e backend em API RESTful .NET C# hospedada em cloud. Atuação ponta a ponta: arquitetura, codificação, deploy e manutenção.
+                </p>
+                <br />
+        
                 <p>
                     Empresa: UNION Sistemas de Gestão<br />
                     Cargo: Desenvolvedor de Software Jr <br />
-                    Função: Atuo no desenvolvimento e manutenção do ERP SSSoluções, utilizando tecnologias .NET (C# e VB.NET), SQL Server e DevExpress, realizando correções, melhorias, integrações com APIs e contribuindo com a evolução de módulos como o de Comércio Exterior. Também sou responsável pela manutenção do sistema de Força de Vendas, um app mobile integrado ao ERP, onde realizo ajustes no frontend em Kotlin/Java e colaboro no backend em C#, garantindo a comunicação segura com o banco de dados. Tenho foco em entregar soluções robustas, performáticas e alinhadas às necessidades dos usuários.
+                    Atuo no desenvolvimento, manutenção e evolução do ERP SSSoluções, utilizando tecnologias .NET (C# e VB.NET) e SQL. Minhas responsabilidades incluem:<br />
+                    - Realizar correções, melhorias e novas implementações no sistema;<br />
+                    - Desenvolver e integrar o sistema com APIs de parceiros e serviços externos;<br />
+                    - Colaborar no desenvolvimento do novo módulo de Comércio Exterior;<br />
+                    - Criar soluções utilizando DevExpress para otimização de interfaces e relatórios.<br />
+                    <br />
+                    Estou comprometido em entregar soluções robustas e de alta performance que atendam às necessidades do cliente e aprimorem a experiência do usuário.
                 </p>
                 <br />
                 <p>
