@@ -45,15 +45,12 @@ const Main = () => {
                  <p>
                     Empresa: UNION Sistemas de Gestão<br />
                     Cargo: Desenvolvedor de Software Full Stack Pleno<br />
-                    Período: ago de 2025 - o momento · 3 meses<br />
-                    Local: Juiz de Fora, Minas Gerais, Brasil<br />
-                    <br />
                     Sou responsável pelo desenvolvimento, manutenção e evolução do ERP SSSoluções e dos demais sistemas integrados ao ecossistema da empresa. <br /><br />
-                    <strong>ERP Desktop:</strong><br />
+                    ERP Desktop:<br />
                     Sistema desenvolvido em .NET (C# e VB.NET), com interface em DevExpress e banco de dados SQL Server. Atuação em rotinas críticas e de alta complexidade, incluindo integrações bancárias (Bradesco, Sicoob, Itaú, Banco do Brasil), registro e baixa automática de boletos, pagamentos via código de barras e PIX (QR Code), além de módulos fiscais (NFe, CT-e, MDFe, DF-e, SPED Fiscal e SPED Benefícios).<br /><br />
-                    <strong>Aplicativo Força de Vendas (Mobile):</strong><br />
+                    Aplicativo Força de Vendas (Mobile):<br />
                     App híbrido (online/offline) utilizado por vendedores, com sincronização quando conectado. Frontend em Java/Kotlin e backend (WCF) em .NET C# hospedado em cloud. Responsável por novas funcionalidades, melhorias, correções e integrações.<br /><br />
-                    <strong>Canhoto Eletrônico:</strong><br />
+                   Canhoto Eletrônico:<br />
                     Aplicativo para confirmação digital de entregas. Frontend em .NET MAUI e backend em API RESTful .NET C# hospedada em cloud. Atuação ponta a ponta: arquitetura, codificação, deploy e manutenção.
                 </p>
                 <br />
